@@ -15,7 +15,14 @@ export class Satellite {
    }
 	
 	isSpaceDebris(): boolean {
+		// let redWord = "Space Debris";
+		if (this.type === "Space Debris") {
 		return true;
+		// table.background.style = #C7254E
+		} else {
+		return false
+		}
+		
    }
 
 }
